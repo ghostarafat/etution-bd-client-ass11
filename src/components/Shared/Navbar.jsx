@@ -103,7 +103,7 @@ function Navbar() {
               className="text-lg flex items-center gap-2 sm:text-xl lg:text-2xl font-bold tracking-wide text-white hover:scale-105 transition-transform duration-200"
             >
               <FaGraduationCap />
-              Edu Plus
+              eTutiion Bd
             </Link>
           </div>
 
@@ -153,13 +153,13 @@ function Navbar() {
                     </span>
                   </li>
                   <li onClick={closeMenu}>
-                    <Link
-                      className="btn btn-sm w-full text-white hover:opacity-90 transition-opacity"
+                    <MyLink
+                      path="/dashboard"
+                      className="btn btn-sm w-full !text-gray-900 dark:!text-white hover:!text-white"
                       style={{ backgroundColor: "var(--color-secondary)" }}
-                      to="/dashboard"
                     >
                       Dashboard
-                    </Link>
+                    </MyLink>
                   </li>
                   <div className="divider my-1"></div>
                   <li>
@@ -217,7 +217,7 @@ function Navbar() {
               className="text-xl font-bold text-white"
               onClick={closeMenu}
             >
-              Edu Plus
+              eTution Bd
             </Link>
             <button
               onClick={closeMenu}
