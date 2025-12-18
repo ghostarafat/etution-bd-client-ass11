@@ -95,7 +95,7 @@ const Footer = () => {
                     >
                       <FaGraduationCap className="text-white " />
                     </div>
-                    EduPlus
+                    eTution Bd
                   </h3>
                   <p className="text-gray-300 leading-relaxed mb-6 text-sm sm:text-base">
                     Connecting passionate learners with expert tutors worldwide.
@@ -247,10 +247,10 @@ const Footer = () => {
                         Email
                       </p>
                       <a
-                        href="mailto:support@eduplus.com"
+                        href="mailto:support@etutionbd.com"
                         className="text-gray-300 hover:text-white transition-colors text-sm sm:text-base break-all"
                       >
-                        support@eduplus.com
+                        support@etutionbd.com
                       </a>
                     </div>
                   </div>
@@ -270,11 +270,8 @@ const Footer = () => {
                       <p className="text-white font-medium text-sm sm:text-base">
                         Phone
                       </p>
-                      <a
-                        href="tel:+1234567890"
-                        className="text-gray-300 hover:text-white transition-colors text-sm sm:text-base"
-                      >
-                        +1 (234) 567-890
+                      <a className="text-gray-300 hover:text-white transition-colors text-sm sm:text-base">
+                        16969
                       </a>
                     </div>
                   </div>
@@ -295,9 +292,9 @@ const Footer = () => {
                         Address
                       </p>
                       <p className="text-gray-300 text-sm sm:text-base">
-                        123 Education Street
+                        Niketon, Gulshan
                         <br />
-                        Learning City, LC 12345
+                        Block-A, Road-1
                       </p>
                     </div>
                   </div>
@@ -358,7 +355,7 @@ const Footer = () => {
               {/* Copyright */}
               <div className="flex flex-col sm:flex-row items-center gap-1 sm:gap-2 text-gray-300 text-center sm:text-left">
                 <span className="text-sm sm:text-base">
-                  © {currentYear} EduPlus. All rights reserved.
+                  © {currentYear} eTution Bd. All rights reserved.
                 </span>
                 <span className="hidden sm:inline">•</span>
                 <span className="flex items-center gap-1 text-sm sm:text-base">
